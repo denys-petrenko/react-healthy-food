@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-healthy-food/static/css/main.6762a407.css",
+    "main.js": "/react-healthy-food/static/js/main.c43f513f.js",
+    "static/media/main.png": "/react-healthy-food/static/media/main.818de82bb248411aab36.png",
+    "static/media/menu-salad.png": "/react-healthy-food/static/media/menu-salad.d37456b77cabe0fc9c88.png",
+    "static/media/menu-bowl.png": "/react-healthy-food/static/media/menu-bowl.35ed76c79fa8f775f320.png",
+    "static/media/menu-mix.png": "/react-healthy-food/static/media/menu-mix.12bac1cb3b7323c431e9.png",
+    "static/media/menu-eggs.png": "/react-healthy-food/static/media/menu-eggs.12f9fb972d3951ad100f.png",
+    "static/media/menu-soup.png": "/react-healthy-food/static/media/menu-soup.55696fdb1f802d23365b.png",
+    "static/media/Roboto-Regular.ttf": "/react-healthy-food/static/media/Roboto-Regular.160d7a6ac26376e5e977.ttf",
+    "static/media/menu-fish.png": "/react-healthy-food/static/media/menu-fish.6b9b31dd5f50ad3f752e.png",
+    "static/media/slick.svg": "/react-healthy-food/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-healthy-food/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-healthy-food/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-healthy-food/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-healthy-food/index.html",
+    "main.6762a407.css.map": "/react-healthy-food/static/css/main.6762a407.css.map",
+    "main.c43f513f.js.map": "/react-healthy-food/static/js/main.c43f513f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6762a407.css",
+    "static/js/main.c43f513f.js"
+  ]
+}
