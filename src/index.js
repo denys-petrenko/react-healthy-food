@@ -8,7 +8,7 @@ import "./fonts/Roboto-Regular.ttf";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <HashRouter basename = "/react-healthy-food">
+    <HashRouter>
         <App data={data}/>
     </HashRouter>
 );
