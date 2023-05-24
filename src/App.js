@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
+import Menu from "./Components/Menu/Menu";
+import Footer from "./Components/Footer/Footer";
+import {Route,Routes} from "react-router";
+import SimpleCarousel from "./Components/Main/Carousel/Carousel";
+import Maps from "./Components/Main/Maps";
 
-function App() {
+
+
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "App">
+        <Header linksToProps={props.data.header.links} logoToProps={props.data.header.logo} />
+        <Routes>
+            <Route path="/menu" element={<Menu menuToProps={props.data.menu.box}/>}/>
+        </Routes>
+        <Main sectionToProps={props.data.section}/>
+        <SimpleCarousel/>
+        <Maps/>
+        <Footer/>
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.Carousel {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  .Card img {
+      width: 100%;
+    }
+}
+.slick-next{
+  right: -50px;
+}
+.slick-prev{
+  left: -50px;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+h2{
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}

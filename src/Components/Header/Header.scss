@@ -1,0 +1,37 @@
+header{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 90px;
+  background-color: #252525;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+     p{
+       color: #34C759;
+       font-size: 14px;
+       font-family: "Roboto", sans-serif;
+     }
+     img{
+       margin-bottom: 13px;
+     }
+  }
+  nav{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    a{
+      text-decoration: none;
+      color: #FFFFFF;
+      font-size: 14px;
+    }
+    a:hover{
+      color: #34C759;
+    }
+  }
+}

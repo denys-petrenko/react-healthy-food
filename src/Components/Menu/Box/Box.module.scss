@@ -1,0 +1,66 @@
+.Box{
+  width: 350px;
+  height: 550px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #252525;
+  color: #bfb7b7;
+  p{
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+  }
+  h2{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  h3{
+    color: red;
+    border: 2px solid red;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+  }
+  button{
+    margin-top: 10px;
+    position: relative;
+    background-color: #34C759;
+    border-radius: 5px;
+    box-shadow: #1f5c2f 0px 4px 0px 0px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 120px;
+    height: 35px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  button::before {
+    content: "";
+    background-color: #1f5c2f;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  }
+
+  button:hover::before {
+    width: 100%;
+  }
+  button:focus{
+    background-color: #1f5c2f;
+  }
+}
