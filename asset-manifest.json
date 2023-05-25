@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-healthy-food/static/css/main.6762a407.css",
-    "main.js": "/react-healthy-food/static/js/main.c43f513f.js",
+    "main.js": "/react-healthy-food/static/js/main.8e7dc7de.js",
     "static/media/main.png": "/react-healthy-food/static/media/main.818de82bb248411aab36.png",
     "static/media/menu-salad.png": "/react-healthy-food/static/media/menu-salad.d37456b77cabe0fc9c88.png",
     "static/media/menu-bowl.png": "/react-healthy-food/static/media/menu-bowl.35ed76c79fa8f775f320.png",
@@ -16,10 +16,10 @@
     "static/media/slick.woff": "/react-healthy-food/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-healthy-food/index.html",
     "main.6762a407.css.map": "/react-healthy-food/static/css/main.6762a407.css.map",
-    "main.c43f513f.js.map": "/react-healthy-food/static/js/main.c43f513f.js.map"
+    "main.8e7dc7de.js.map": "/react-healthy-food/static/js/main.8e7dc7de.js.map"
   },
   "entrypoints": [
     "static/css/main.6762a407.css",
-    "static/js/main.c43f513f.js"
+    "static/js/main.8e7dc7de.js"
   ]
 }
